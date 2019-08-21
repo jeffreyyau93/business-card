@@ -1,0 +1,47 @@
+.main {
+    width: 1100px;
+    height: 800px;
+}
+#right-up {
+    width: 0;
+    height: 0;
+    border-top: 300px solid #353a40;
+    border-left: 300px solid transparent;
+    /* border-right: 300px solid transparent; */
+    /* border-bottom: 300px solid #353a40; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    filter: drop-shadow(-3px 3px 2px rgba(0, 0, 0, 0.3));
+}
+#left-bottom {
+    width: 0;
+    height: 0;
+    /* border-left: 300px solid transparent; */
+    border-right: 300px solid transparent;
+    border-bottom: 300px solid #353a40;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    filter: drop-shadow(3px -3px 2px rgba(0, 0, 0, 0.3));
+}
+#your-card {
+    width: 900px;
+    height: 600px;
+    background: lightskyblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#logo {
+    background: black;
+    width: 250px;
+    height: 600px;
+}
+#info {
+    background: white;
+    width: 650px;
+    height: 600px;
+}
